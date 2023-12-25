@@ -1,0 +1,578 @@
+/* Project CSS Source Code by shubhampal.co.in */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li {
+    float: left;
+    margin: 22px 13px;
+    font-size: 14px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -45px;
+}
+
+nav ul ul li {
+    background: white;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin: 0px;
+    border: 1px solid grey;
+    line-height: 30px;
+}
+
+nav ul ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    float: left;
+    height: 30px;
+    width: 70px;
+    margin: 12px 100px;
+}
+
+input {
+    height: 32px;
+    width: 220px;
+    float: right;
+    margin: 13px 250px 13px 0px;
+    border-radius: 50px;
+    border-style: none;
+    background: #e0e0e0;
+    padding-left: 15px;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+    margin-right: 0px;
+}
+
+#div1 {
+    height: 500px;
+    width: 100%;
+    background: khaki;
+    background: url(Boat-Website/boat1.jpg);
+    background-size: 100% 100%;
+}
+
+.div1-1 {
+    height: 250px;
+    width: 100%;
+}
+
+.div1-2 {
+    height: 250px;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+}
+
+#div2 {
+    height: 260px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.div2-1 {
+    height: 235px;
+    width: 235px;
+    float: left;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-image {
+    height: 235px;
+    width: 235px;
+    border-radius: 10px;
+}
+
+.txt {
+    display: inline-block;
+}
+
+p {
+    margin-left: 8%;
+}
+
+.bottom-heading1 {
+    position: relative;
+    top: 5px;
+}
+
+.txt3 a {
+    float: right;
+    margin-right: 8%;
+    text-decoration: none;
+    font-size: 14px;
+    color: blue;
+}
+
+#div3 {
+    height: 400px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.div3-1 {
+    height: 450px;
+    width: 300px;
+}
+
+.div3-2 {
+    height: 300px;
+    width: 300px;
+    background-size: 100% 100%;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+}
+
+.main-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    width: 300px;
+}
+
+.div3-3 {
+    height: 100px;
+    width: 300px;
+    border: 1px solid rgb(208, 208, 208);
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 10px;
+}
+
+.sub-heading1 {
+    height: 20px;
+    display: inline-block;
+    background: black;
+    border-radius: 0px 6px 6px 0px;
+    text-align: center;
+    position: relative;
+    top: -300px;
+    right: 24px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    padding: 0px 10px;
+}
+
+.sub-heading2 {
+    height: 20px;
+    width: 200px;
+    background: #fcc50b;
+    border-radius: 8px;
+    border: 1px solid white;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.div3-heading1 {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.div3-heading2 {
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+.div3-txt1 {
+    color: #bdc3c8;
+    font-size: 12px;
+}
+
+.div3-txt2 {
+    color: #03b684;
+    font-size: 8px;
+}
+
+.div3-txt3 {
+    font-size: 11px;
+    position: relative;
+    top: -6px;
+    left: 5px;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+}
+
+.btn1 {
+    height: 30px;
+    width: 80px;
+    background: black;
+    border-radius: 8px;
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+    left: 150px;
+    border-style: none;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    height: 400px;
+    width: 98%;
+    background: khaki;
+    margin: auto;
+}
+
+#foot1 {
+    height: 400px;
+    width: 32%;
+    background: #e7f0f5;
+    float: left;
+}
+
+#foot2 {
+    height: 400px;
+    width: 28%;
+    background: #e7f0f5;
+    float: left;
+}
+
+#foot3 {
+    height: 400px;
+    width: 20%;
+    background: #e7f0f5;
+    float: left;
+}
+
+#foot4 {
+    height: 400px;
+    width: 20%;
+    background: #e7f0f5;
+    float: left;
+}
+
+.foot-logo {
+    height: 50px;
+    width: 110px;
+    position: relative;
+    top: 35px;
+    left: 45px;
+}
+
+.subscribe {
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.subscribe-box {
+    height: 35px;
+    width: 380px;
+    background: white;
+    position: relative;
+    top: 10px;
+    left: 195px;
+    border-radius: 5px;
+}
+
+.btn2 {
+    height: 35px;
+    width: 380px;
+    background: black;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    border-style: none;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot {
+    height: 320px;
+    width: 50%;
+    float: left;
+    padding: 0px;
+    text-align: left;
+}
+
+ul {
+
+    list-style: none;
+    position: relative;
+    text-align: left;
+}
+
+ul li {
+    margin: 25px 0px;
+}
+
+#div4 {
+    height: 250px;
+    width: 85%;
+    background: grey;
+    margin: auto;
+}
+
+#div4-1 {
+    height: 250px;
+    width: 40%;
+    background: #d0d9de;
+    float: left;
+    line-height: 250px;
+    text-align: center;
+    font-size: 100px;
+    font-family: impact;
+    color: #f99d1d;
+}
+
+#div4-2 {
+    height: 250px;
+    width: 60%;
+    background: #e1e1e1;
+    float: left;
+    line-height: 250px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#div5 {
+    height: 400px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.div5-1 {
+    height: 200px;
+    width: 310px;
+}
+
+.div5-2 {
+    height: 180px;
+    width: 310px;
+    background: yellow;
+    background-size: 100% 100%;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+}
+
+.main-pic {
+    border-radius: 10px 10px 0px 0px;
+    height: 180px;
+    width: 310px;
+}
+
+.div5-3 {
+    height: 190px;
+    width: 310px;
+    border: 1px solid rgb(208, 208, 208);
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 10px;
+}
+
+.btn3 {
+    height: 35px;
+    width: 200px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 50px;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: black;
+}
+
+#banner {
+    height: 150px;
+    width: 85%;
+    margin: auto;
+    background-image: url(Boat-Website/banner-boat.png);
+    background-size: 100% 100%;
+}
+
+#div6 {
+    height: 400px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.div6-1 {
+    height: 450px;
+    width: 200px;
+}
+
+.div6-2 {
+    height: 300px;
+    width: 150px;
+    background-size: 100% 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+}
+
+.main-video {
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    width: 200px;
+}
+
+.main-photo2 {
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 25px;
+}
+
+.div6-3 {
+    height: 100px;
+    width: 200px;
+    border: 1px solid rgb(208, 208, 208);
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.div6-heading1 {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.div6-heading2 {
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+.div6-txt1 {
+    color: #bdc3c8;
+    font-size: 12px;
+}
+
+.div6-txt2 {
+    color: #03b684;
+    font-size: 12px;
+}
+
+.sub-heading {
+    height: 25px;
+    width: 25px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#div7 {
+    height: 120px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: space-between;
+}
+
+.category {
+    height: 100px;
+    width: 8%;
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.category-img {
+    height: 100px;
+    width: 100%;
+}
+
+#div8 {
+    height: 120px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: space-between;
+}
+
+.div8 {
+    height: 120px;
+    width: 15%;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.div8-img {
+    height: 120px;
+    width: 100%;
+}
+
+/* Project CSS Source Code by shubhampal.co.in | All Rights Reseverd. */
